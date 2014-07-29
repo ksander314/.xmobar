@@ -1,0 +1,4 @@
+.xmobar
+=======
+
+My xmobar configuration.
