@@ -2,8 +2,10 @@ Config { font = "xft:Inconsolata"
        , bgColor = "#000000"
        , fgColor = "#657b83"
        , position = TopW L 100
+       , lowerOnStart = False
+       , allDesktops = True
        , hideOnStart = False
-       , overrideRedirect = True
+       , overrideRedirect = False
        , commands = [ Run Weather "URRR" ["-t"," <tempC>C","-L","64","-H","77","--normal","green","--high","red","--low","lightblue"] 36000
 		    , Run Cpu ["-L","3","-H","50","--normal","green","-high","red"] 10
                     , Run Network "em1" ["-m", "4", "-L","0","-H","100","--normal","#002b36","--high","#657b83"] 10
